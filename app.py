@@ -325,26 +325,7 @@ def render_ingestion(ingestion: IngestionResult) -> None:
 
     st.markdown("**LLM agent status**")
     st.code(ingestion.agent_status or "(none)")
-    if ingestion.agent_matches:
-        rows = []
-        for m in ingestion.agent_matches:
-            rows.append(
-                {
-                    "type": m.get("query_type"),
-                    "query": m.get("query"),
-                    "matched_id": m.get("matched_id"),
-                    "confidence": m.get("confidence"),
-                    "applied": m.get("applied"),
-                    "provider": f"{m.get('provider')}/{m.get('model')}" if m.get("provider") else "",
-                    "rationale": (m.get("rationale") or m.get("error") or "")[:120],
-                }
-            )
-        st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-    else:
-        st.caption(
-            "No agent match attempts in this run "
-            "(set OPENAI_API_KEY or Ollama + AGENT_ENABLED=1, then Refresh pipeline)."
-        )
+    st.caption("Full match details → open the **Agent matches** tab.")
 
     with st.expander("Taxonomy tags"):
         tax = pd.DataFrame([t.to_dict() for t in ingestion.taxonomy_results])
@@ -372,6 +353,161 @@ def render_ingestion(ingestion: IngestionResult) -> None:
             if c in u.columns
         ]
         st.dataframe(u[cols], use_container_width=True, hide_index=True)
+
+
+def render_agent_matches(ingestion: IngestionResult) -> None:
+    """Dedicated view: did the LLM agent help reconcile UNMAPPED campaigns / orphan SKUs?"""
+    st.subheader("LLM agent — fuzzy match results")
+    st.caption(
+        "Leftovers after deterministic `id_map` join. "
+        "**Applied = True** means the agent was helpful enough "
+        f"(confidence ≥ {os.getenv('AGENT_MATCH_MIN_CONF', '0.7')}) to write a unified key."
+    )
+    st.code(ingestion.agent_status or "(no agent status)")
+
+    matches = ingestion.agent_matches or []
+    if not matches:
+        st.warning(
+            "No agent match attempts this run. Enable the LLM agent toggle, set "
+            "`OPENAI_API_KEY` (or Ollama), then click **Refresh pipeline**."
+        )
+        return
+
+    n_total = len(matches)
+    n_applied = sum(1 for m in matches if m.get("applied"))
+    n_errors = sum(1 for m in matches if m.get("error"))
+    n_review = n_total - n_applied - n_errors
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("Match attempts", n_total)
+    m2.metric("Applied (helpful)", n_applied)
+    m3.metric("Needs review", n_review)
+    m4.metric("Errors", n_errors)
+
+    if n_applied:
+        st.success(
+            f"Agent reconciled **{n_applied}** leftover(s). "
+            "Those rows moved from UNMAPPED → `agent_matched` in the unified table."
+        )
+    elif n_errors == n_total:
+        st.error("Every agent call failed. Check API key / Ollama and the error column below.")
+    else:
+        st.info(
+            "Agent ran but nothing was auto-applied (low confidence or create_new rejected). "
+            "See Needs review rows — still useful as proposed matches for a human."
+        )
+
+    # ---- Campaign / SKU match tables ----
+    camp = [m for m in matches if m.get("query_type") == "campaign"]
+    sku = [m for m in matches if m.get("query_type") == "sku"]
+    other = [m for m in matches if m.get("query_type") not in {"campaign", "sku"}]
+
+    def _match_rows(items: list[dict]) -> pd.DataFrame:
+        rows = []
+        for m in items:
+            if m.get("error"):
+                outcome = "ERROR"
+            elif m.get("applied"):
+                outcome = "APPLIED ✓"
+            else:
+                outcome = "NEEDS REVIEW"
+            rows.append(
+                {
+                    "Outcome": outcome,
+                    "Query (raw name/SKU)": m.get("query"),
+                    "Platform": m.get("platform", ""),
+                    "Platform campaign ID": m.get("platform_campaign_id", ""),
+                    "Matched unified ID": m.get("matched_id") or "",
+                    "Matched name": m.get("matched_name") or "",
+                    "Unified SKU": m.get("unified_sku") or "",
+                    "Funnel": m.get("funnel_stage") or "",
+                    "Product": m.get("product_category") or "",
+                    "Confidence": m.get("confidence"),
+                    "Create new?": m.get("create_new"),
+                    "Provider": (
+                        f"{m.get('provider')}/{m.get('model')}" if m.get("provider") else ""
+                    ),
+                    "Rationale / error": (m.get("rationale") or m.get("error") or ""),
+                }
+            )
+        return pd.DataFrame(rows)
+
+    st.markdown("### Campaign reconciliations")
+    if camp:
+        st.dataframe(_match_rows(camp), use_container_width=True, hide_index=True)
+    else:
+        st.caption("No campaign leftover queries this run.")
+
+    st.markdown("### Shopify SKU reconciliations")
+    if sku:
+        st.dataframe(_match_rows(sku), use_container_width=True, hide_index=True)
+    else:
+        st.caption("No orphan SKU queries this run.")
+
+    if other:
+        st.markdown("### Other / failed payloads")
+        st.dataframe(_match_rows(other), use_container_width=True, hide_index=True)
+
+    # ---- Before → after in unified table ----
+    st.markdown("### Effect on unified campaigns (after agent)")
+    u = ingestion.unified.copy()
+    latest = (
+        u.sort_values("date")
+        .groupby(["platform", "platform_campaign_id", "campaign_name"], as_index=False)
+        .tail(1)
+    )
+    status_counts = (
+        latest["map_status"].value_counts(dropna=False).rename_axis("map_status").reset_index(name="campaigns")
+    )
+    st.dataframe(status_counts, use_container_width=True, hide_index=True)
+
+    agent_rows = latest[latest["map_status"].astype(str) == "agent_matched"]
+    if len(agent_rows):
+        st.markdown("**Rows the agent successfully mapped** (were leftovers; now have unified keys):")
+        cols = [
+            c
+            for c in [
+                "platform",
+                "campaign_name",
+                "platform_campaign_id",
+                "map_status",
+                "unified_campaign_id",
+                "unified_sku",
+                "funnel_stage",
+                "product_category",
+                "agent_match_confidence",
+                "agent_match_rationale",
+            ]
+            if c in agent_rows.columns
+        ]
+        st.dataframe(agent_rows[cols], use_container_width=True, hide_index=True)
+    else:
+        st.caption(
+            "No `map_status=agent_matched` rows yet. "
+            "Either agent did not apply matches, or there were no UNMAPPED leftovers."
+        )
+
+    still_unmapped = latest[
+        latest["map_status"].astype(str).isin(["UNMAPPED", "unmapped"])
+        | (
+            (latest["unified_campaign_id"].astype(str).isin(["", "nan"]))
+            & (latest["map_status"].astype(str) != "mapped")
+        )
+    ]
+    if len(still_unmapped):
+        with st.expander(f"Still unmapped after agent ({len(still_unmapped)} campaigns)"):
+            cols = [
+                c
+                for c in [
+                    "platform",
+                    "campaign_name",
+                    "platform_campaign_id",
+                    "map_status",
+                    "agent_match_confidence",
+                    "agent_match_rationale",
+                ]
+                if c in still_unmapped.columns
+            ]
+            st.dataframe(still_unmapped[cols], use_container_width=True, hide_index=True)
 
 
 def render_waste(plan: AllocationPlan) -> None:
@@ -497,13 +633,15 @@ def main() -> None:
     render_approval(plan)
     st.divider()
 
-    tab_curves, tab_waste, tab_ingest = st.tabs(
-        ["M2 Curves", "Waste flags", "M1 Ingestion & Agent"]
+    tab_curves, tab_waste, tab_agent, tab_ingest = st.tabs(
+        ["M2 Curves", "Waste flags", "Agent matches", "M1 Ingestion"]
     )
     with tab_curves:
         render_curves(curves)
     with tab_waste:
         render_waste(plan)
+    with tab_agent:
+        render_agent_matches(ingestion)
     with tab_ingest:
         render_ingestion(ingestion)
 
