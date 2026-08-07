@@ -93,6 +93,13 @@ Never invent Meta and Google metrics independently. Pipeline:
 | Google | Brand Search | `G_Search_Brand_Shirts_Promo_2026` | Second product |
 | Meta | Retargeting | `TC_CashBurn_Retarget_AllProducts_Aug` | **Cash burner** (flag B) |
 | Google | Non-brand | `Search_Generic_Hungry_Tees_Exact` | **Capped & hungry** (flag A) |
+| Meta | Prospecting | `TC US Prospecting Men's Tees Broad - 2026` | **Fuzzy alias** → should agent-match `uc_meta_prospecting_tees` |
+| Meta | Retargeting | `Facebook Retarget Tees Q3 v2` | **Fuzzy alias** → `uc_meta_retargeting_tees` |
+| Google | Brand | `Brand Search - True Classic Tees Exact` | **Fuzzy alias** → `uc_google_brand_tees` |
+| Google | Brand | `G Ads Brand Oxford Shirts Promo 26` | **Fuzzy alias** → `uc_google_brand_shirts` |
+
+**Orphan Shopify SKUs** (also UNMAPPED; agent should map to canonical SKUs):  
+`TC-UNKNOWN-CLEARANCE` → `TC-MIXED`, `TC_TEE_CREW` / `true-classic-crew-tee` → `TC-TEE-CREW`, `TC-SHIRT-OXFORD-CLR` → `TC-SHIRT-OXFORD`, `boxers und sku draft` → `TC-UND-BOXER`.
 
 Amazon / Microsoft are **out of scope** for generated live fixtures (same as main README).
 

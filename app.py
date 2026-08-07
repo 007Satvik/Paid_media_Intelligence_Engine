@@ -358,10 +358,12 @@ def render_ingestion(ingestion: IngestionResult) -> None:
 def render_agent_matches(ingestion: IngestionResult) -> None:
     """Dedicated view: did the LLM agent help reconcile UNMAPPED campaigns / orphan SKUs?"""
     st.subheader("LLM agent — fuzzy match results")
+    min_conf = os.getenv("AGENT_MATCH_MIN_CONF", "0.55")
     st.caption(
-        "Leftovers after deterministic `id_map` join. "
-        "**Applied = True** means the agent was helpful enough "
-        f"(confidence ≥ {os.getenv('AGENT_MATCH_MIN_CONF', '0.7')}) to write a unified key."
+        "Leftovers after deterministic `id_map` join (usually 2 UNMAPPED campaigns + 1 orphan SKU). "
+        f"**Applied** means confidence cleared the gate (default ≥ {min_conf}, or create_new with labels). "
+        "If Applied=0 but rows show NEEDS REVIEW with a matched_id/rationale, the agent still proposed "
+        "matches — they just weren’t auto-written."
     )
     st.code(ingestion.agent_status or "(no agent status)")
 

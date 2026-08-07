@@ -30,7 +30,7 @@ Provider = Literal["openai", "ollama"]
 DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
 DEFAULT_OLLAMA_MODEL = "llama3.1:8b"
 DEFAULT_OLLAMA_URL = "http://localhost:11434"
-DEFAULT_MIN_CONF = 0.7
+DEFAULT_MIN_CONF = 0.55
 
 FUNNEL_ENUM = ("prospecting", "retargeting", "brand", "non_brand", "unknown")
 PRODUCT_ENUM = ("tees", "shirts", "underwear", "mixed", "unknown")
@@ -242,9 +242,12 @@ Return STRICT JSON with this schema:
 }
 
 Rules:
-- Prefer an existing catalog entity_id when names clearly refer to the same campaign/SKU.
-- If nothing is close, set matched_id=null, create_new=true, and suggest funnel/product from the query name.
-- confidence in [0,1]. Use <0.5 when unsure.
+- Prefer an existing catalog entity_id when names clearly refer to the same campaign/SKU
+  (including "pending_*" catalog rows that encode funnel/product hints).
+- If the query is a real leftover campaign/SKU with no close twin, set create_new=true,
+  matched_id=null, fill funnel_stage + product_category from the name, and use confidence >= 0.75.
+- For orphan SKUs like TC-UNKNOWN-CLEARANCE / mixed clearance, prefer unified_sku TC-MIXED when reasonable.
+- confidence in [0,1]. Use <0.5 only when truly unsure.
 - Do not copy dollars. Closed enums only for funnel_stage and product_category.
 """
 

@@ -8,10 +8,10 @@
     },
     "metrics": {
       "costMicros": "2869600000",
-      "impressions": "33060",
-      "clicks": "7280",
-      "conversions": "155.0",
-      "conversionsValue": "12310.22"
+      "impressions": "29822",
+      "clicks": "3972",
+      "conversions": "146.5",
+      "conversionsValue": "10805.54"
     },
     "segments": {
       "date": "2026-07-16"
@@ -26,10 +26,10 @@
     },
     "metrics": {
       "costMicros": "1852750000",
-      "impressions": "15640",
-      "clicks": "2114",
-      "conversions": "45.9",
-      "conversionsValue": "3517.71"
+      "impressions": "24534",
+      "clicks": "5263",
+      "conversions": "53.5",
+      "conversionsValue": "3717.76"
     },
     "segments": {
       "date": "2026-07-16"
@@ -44,10 +44,10 @@
     },
     "metrics": {
       "costMicros": "1108280000",
-      "impressions": "16591",
-      "clicks": "3849",
-      "conversions": "29.5",
-      "conversionsValue": "2277.40"
+      "impressions": "16506",
+      "clicks": "2642",
+      "conversions": "31.1",
+      "conversionsValue": "2067.60"
     },
     "segments": {
       "date": "2026-07-16"
@@ -62,10 +62,46 @@
     },
     "metrics": {
       "costMicros": "646680000",
-      "impressions": "6199",
-      "clicks": "1598",
-      "conversions": "64.6",
-      "conversionsValue": "4403.38"
+      "impressions": "7665",
+      "clicks": "1854",
+      "conversions": "61.2",
+      "conversionsValue": "5082.07"
+    },
+    "segments": {
+      "date": "2026-07-16"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "611610000",
+      "impressions": "9276",
+      "clicks": "1660",
+      "conversions": "12.7",
+      "conversionsValue": "1002.85"
+    },
+    "segments": {
+      "date": "2026-07-16"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "427700000",
+      "impressions": "6844",
+      "clicks": "1381",
+      "conversions": "8.4",
+      "conversionsValue": "531.61"
     },
     "segments": {
       "date": "2026-07-16"
@@ -79,11 +115,11 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2626000000",
-      "impressions": "46279",
-      "clicks": "12313",
-      "conversions": "115.3",
-      "conversionsValue": "10025.80"
+      "costMicros": "2890280000",
+      "impressions": "32545",
+      "clicks": "7055",
+      "conversions": "140.0",
+      "conversionsValue": "8912.29"
     },
     "segments": {
       "date": "2026-07-17"
@@ -97,11 +133,11 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "1871150000",
-      "impressions": "22756",
-      "clicks": "3195",
-      "conversions": "44.9",
-      "conversionsValue": "3281.15"
+      "costMicros": "1863830000",
+      "impressions": "16916",
+      "clicks": "2139",
+      "conversions": "51.2",
+      "conversionsValue": "3918.20"
     },
     "segments": {
       "date": "2026-07-17"
@@ -115,11 +151,11 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1292520000",
-      "impressions": "18800",
-      "clicks": "3006",
-      "conversions": "39.1",
-      "conversionsValue": "3184.90"
+      "costMicros": "1120280000",
+      "impressions": "17924",
+      "clicks": "4194",
+      "conversions": "36.4",
+      "conversionsValue": "2548.71"
     },
     "segments": {
       "date": "2026-07-17"
@@ -133,11 +169,47 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "679260000",
-      "impressions": "8798",
-      "clicks": "1356",
-      "conversions": "73.7",
-      "conversionsValue": "5187.62"
+      "costMicros": "661010000",
+      "impressions": "11525",
+      "clicks": "3145",
+      "conversions": "67.2",
+      "conversionsValue": "4740.26"
+    },
+    "segments": {
+      "date": "2026-07-17"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "578860000",
+      "impressions": "5014",
+      "clicks": "669",
+      "conversions": "12.4",
+      "conversionsValue": "929.31"
+    },
+    "segments": {
+      "date": "2026-07-17"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "401790000",
+      "impressions": "6043",
+      "clicks": "748",
+      "conversions": "6.1",
+      "conversionsValue": "497.58"
     },
     "segments": {
       "date": "2026-07-17"
@@ -151,11 +223,11 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2970700000",
-      "impressions": "33306",
-      "clicks": "4025",
-      "conversions": "141.1",
-      "conversionsValue": "11426.89"
+      "costMicros": "2858550000",
+      "impressions": "43505",
+      "clicks": "10004",
+      "conversions": "126.8",
+      "conversionsValue": "10522.20"
     },
     "segments": {
       "date": "2026-07-18"
@@ -169,11 +241,11 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "2275210000",
-      "impressions": "26164",
-      "clicks": "4538",
-      "conversions": "61.2",
-      "conversionsValue": "4445.22"
+      "costMicros": "1829570000",
+      "impressions": "29878",
+      "clicks": "4933",
+      "conversions": "52.5",
+      "conversionsValue": "3269.58"
     },
     "segments": {
       "date": "2026-07-18"
@@ -187,11 +259,11 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1231430000",
-      "impressions": "13660",
-      "clicks": "1941",
-      "conversions": "40.6",
-      "conversionsValue": "2926.83"
+      "costMicros": "1296970000",
+      "impressions": "15773",
+      "clicks": "4185",
+      "conversions": "38.1",
+      "conversionsValue": "2962.96"
     },
     "segments": {
       "date": "2026-07-18"
@@ -205,11 +277,47 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "696290000",
-      "impressions": "9580",
-      "clicks": "1905",
-      "conversions": "65.1",
-      "conversionsValue": "4989.83"
+      "costMicros": "660780000",
+      "impressions": "8510",
+      "clicks": "1216",
+      "conversions": "70.5",
+      "conversionsValue": "5218.59"
+    },
+    "segments": {
+      "date": "2026-07-18"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "710810000",
+      "impressions": "7129",
+      "clicks": "1137",
+      "conversions": "20.8",
+      "conversionsValue": "1562.04"
+    },
+    "segments": {
+      "date": "2026-07-18"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "429450000",
+      "impressions": "4262",
+      "clicks": "1144",
+      "conversions": "6.6",
+      "conversionsValue": "581.00"
     },
     "segments": {
       "date": "2026-07-18"
@@ -223,11 +331,11 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2910870000",
-      "impressions": "23717",
-      "clicks": "5782",
-      "conversions": "158.2",
-      "conversionsValue": "11501.30"
+      "costMicros": "3051020000",
+      "impressions": "43832",
+      "clicks": "7177",
+      "conversions": "155.5",
+      "conversionsValue": "10786.40"
     },
     "segments": {
       "date": "2026-07-19"
@@ -241,950 +349,14 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "2074500000",
-      "impressions": "26263",
-      "clicks": "6584",
-      "conversions": "58.1",
-      "conversionsValue": "4745.98"
-    },
-    "segments": {
-      "date": "2026-07-19"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1158190000",
-      "impressions": "15190",
-      "clicks": "2306",
-      "conversions": "33.7",
-      "conversionsValue": "2387.56"
-    },
-    "segments": {
-      "date": "2026-07-19"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "679360000",
-      "impressions": "7055",
-      "clicks": "1943",
-      "conversions": "67.1",
-      "conversionsValue": "5041.26"
-    },
-    "segments": {
-      "date": "2026-07-19"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "3147350000",
-      "impressions": "49005",
-      "clicks": "7765",
-      "conversions": "139.1",
-      "conversionsValue": "11162.30"
-    },
-    "segments": {
-      "date": "2026-07-20"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "2043520000",
-      "impressions": "16847",
-      "clicks": "3152",
-      "conversions": "48.6",
-      "conversionsValue": "3848.67"
-    },
-    "segments": {
-      "date": "2026-07-20"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1141850000",
-      "impressions": "10363",
-      "clicks": "2760",
-      "conversions": "32.1",
-      "conversionsValue": "2339.10"
-    },
-    "segments": {
-      "date": "2026-07-20"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "644990000",
-      "impressions": "11159",
-      "clicks": "2635",
-      "conversions": "62.0",
-      "conversionsValue": "4416.28"
-    },
-    "segments": {
-      "date": "2026-07-20"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2833210000",
-      "impressions": "29337",
-      "clicks": "8108",
-      "conversions": "154.0",
-      "conversionsValue": "11443.00"
-    },
-    "segments": {
-      "date": "2026-07-21"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1854160000",
-      "impressions": "20161",
-      "clicks": "3572",
-      "conversions": "47.3",
-      "conversionsValue": "4163.75"
-    },
-    "segments": {
-      "date": "2026-07-21"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1082540000",
-      "impressions": "18792",
-      "clicks": "4249",
-      "conversions": "26.6",
-      "conversionsValue": "2013.33"
-    },
-    "segments": {
-      "date": "2026-07-21"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "651480000",
-      "impressions": "5833",
-      "clicks": "1349",
-      "conversions": "58.7",
-      "conversionsValue": "4605.50"
-    },
-    "segments": {
-      "date": "2026-07-21"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2858480000",
-      "impressions": "25925",
-      "clicks": "4067",
-      "conversions": "145.9",
-      "conversionsValue": "10810.31"
-    },
-    "segments": {
-      "date": "2026-07-22"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1855650000",
-      "impressions": "18705",
-      "clicks": "2668",
-      "conversions": "50.3",
-      "conversionsValue": "3665.77"
-    },
-    "segments": {
-      "date": "2026-07-22"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1259430000",
-      "impressions": "20020",
-      "clicks": "2605",
-      "conversions": "44.5",
-      "conversionsValue": "2946.15"
-    },
-    "segments": {
-      "date": "2026-07-22"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "666680000",
-      "impressions": "5374",
-      "clicks": "1318",
-      "conversions": "57.6",
-      "conversionsValue": "4488.35"
-    },
-    "segments": {
-      "date": "2026-07-22"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2709730000",
-      "impressions": "29946",
-      "clicks": "7507",
-      "conversions": "111.7",
-      "conversionsValue": "9126.86"
-    },
-    "segments": {
-      "date": "2026-07-23"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1941490000",
-      "impressions": "23944",
-      "clicks": "3828",
-      "conversions": "52.0",
-      "conversionsValue": "4546.08"
-    },
-    "segments": {
-      "date": "2026-07-23"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1220730000",
-      "impressions": "19424",
-      "clicks": "2378",
-      "conversions": "33.0",
-      "conversionsValue": "2680.02"
-    },
-    "segments": {
-      "date": "2026-07-23"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "672650000",
-      "impressions": "8226",
-      "clicks": "2275",
-      "conversions": "59.2",
-      "conversionsValue": "4627.28"
-    },
-    "segments": {
-      "date": "2026-07-23"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2828430000",
-      "impressions": "37436",
-      "clicks": "7763",
-      "conversions": "147.4",
-      "conversionsValue": "10701.37"
-    },
-    "segments": {
-      "date": "2026-07-24"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "2013440000",
-      "impressions": "22803",
-      "clicks": "5375",
-      "conversions": "53.9",
-      "conversionsValue": "4311.86"
-    },
-    "segments": {
-      "date": "2026-07-24"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1148220000",
-      "impressions": "17674",
-      "clicks": "4727",
-      "conversions": "32.6",
-      "conversionsValue": "2487.83"
-    },
-    "segments": {
-      "date": "2026-07-24"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "685140000",
-      "impressions": "6424",
-      "clicks": "1211",
-      "conversions": "71.7",
-      "conversionsValue": "5331.88"
-    },
-    "segments": {
-      "date": "2026-07-24"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "3167340000",
-      "impressions": "53611",
-      "clicks": "11871",
-      "conversions": "149.4",
-      "conversionsValue": "11033.93"
-    },
-    "segments": {
-      "date": "2026-07-25"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1780510000",
-      "impressions": "30038",
-      "clicks": "6846",
-      "conversions": "48.4",
-      "conversionsValue": "3168.17"
-    },
-    "segments": {
-      "date": "2026-07-25"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1210980000",
-      "impressions": "12585",
-      "clicks": "1676",
-      "conversions": "34.6",
-      "conversionsValue": "2554.27"
-    },
-    "segments": {
-      "date": "2026-07-25"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "647330000",
-      "impressions": "8571",
-      "clicks": "1838",
-      "conversions": "73.6",
-      "conversionsValue": "5119.93"
-    },
-    "segments": {
-      "date": "2026-07-25"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "3029310000",
-      "impressions": "27207",
-      "clicks": "7136",
-      "conversions": "141.6",
-      "conversionsValue": "12273.67"
-    },
-    "segments": {
-      "date": "2026-07-26"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "2135410000",
-      "impressions": "26085",
-      "clicks": "4946",
-      "conversions": "55.4",
-      "conversionsValue": "4181.94"
-    },
-    "segments": {
-      "date": "2026-07-26"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1357010000",
-      "impressions": "15114",
-      "clicks": "4108",
-      "conversions": "37.9",
-      "conversionsValue": "2530.42"
-    },
-    "segments": {
-      "date": "2026-07-26"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "667500000",
-      "impressions": "10258",
-      "clicks": "1897",
-      "conversions": "64.2",
-      "conversionsValue": "5269.18"
-    },
-    "segments": {
-      "date": "2026-07-26"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2866150000",
-      "impressions": "33264",
-      "clicks": "7764",
-      "conversions": "129.7",
-      "conversionsValue": "10514.99"
-    },
-    "segments": {
-      "date": "2026-07-27"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1918450000",
-      "impressions": "26906",
-      "clicks": "6078",
-      "conversions": "47.2",
-      "conversionsValue": "3878.53"
-    },
-    "segments": {
-      "date": "2026-07-27"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1085930000",
-      "impressions": "10826",
-      "clicks": "1638",
-      "conversions": "30.0",
-      "conversionsValue": "2166.53"
-    },
-    "segments": {
-      "date": "2026-07-27"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "664230000",
-      "impressions": "11866",
-      "clicks": "2419",
-      "conversions": "65.8",
-      "conversionsValue": "4896.63"
-    },
-    "segments": {
-      "date": "2026-07-27"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2765430000",
-      "impressions": "42135",
-      "clicks": "6387",
-      "conversions": "131.0",
-      "conversionsValue": "10369.25"
-    },
-    "segments": {
-      "date": "2026-07-28"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1898060000",
-      "impressions": "16530",
-      "clicks": "4500",
-      "conversions": "51.7",
-      "conversionsValue": "3872.23"
-    },
-    "segments": {
-      "date": "2026-07-28"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1089660000",
-      "impressions": "16125",
-      "clicks": "3141",
-      "conversions": "26.4",
-      "conversionsValue": "2198.44"
-    },
-    "segments": {
-      "date": "2026-07-28"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "684550000",
-      "impressions": "9632",
-      "clicks": "2136",
-      "conversions": "81.5",
-      "conversionsValue": "5504.61"
-    },
-    "segments": {
-      "date": "2026-07-28"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2512140000",
-      "impressions": "25986",
-      "clicks": "6891",
-      "conversions": "121.7",
-      "conversionsValue": "8977.38"
-    },
-    "segments": {
-      "date": "2026-07-29"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1950870000",
-      "impressions": "15978",
-      "clicks": "1980",
-      "conversions": "46.4",
-      "conversionsValue": "3882.08"
-    },
-    "segments": {
-      "date": "2026-07-29"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1173040000",
-      "impressions": "20092",
-      "clicks": "5220",
-      "conversions": "37.1",
-      "conversionsValue": "2467.92"
-    },
-    "segments": {
-      "date": "2026-07-29"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "563710000",
-      "impressions": "9743",
-      "clicks": "2507",
-      "conversions": "53.6",
-      "conversionsValue": "3958.62"
-    },
-    "segments": {
-      "date": "2026-07-29"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2915540000",
-      "impressions": "40623",
-      "clicks": "5638",
-      "conversions": "140.4",
-      "conversionsValue": "11049.32"
-    },
-    "segments": {
-      "date": "2026-07-30"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1963520000",
-      "impressions": "25143",
-      "clicks": "4038",
-      "conversions": "48.2",
-      "conversionsValue": "3561.64"
-    },
-    "segments": {
-      "date": "2026-07-30"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1094470000",
-      "impressions": "16289",
-      "clicks": "3769",
-      "conversions": "30.4",
-      "conversionsValue": "2160.40"
-    },
-    "segments": {
-      "date": "2026-07-30"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "647180000",
-      "impressions": "7085",
-      "clicks": "985",
-      "conversions": "64.4",
-      "conversionsValue": "5342.48"
-    },
-    "segments": {
-      "date": "2026-07-30"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2954620000",
-      "impressions": "42527",
-      "clicks": "7571",
-      "conversions": "137.4",
-      "conversionsValue": "9582.51"
-    },
-    "segments": {
-      "date": "2026-07-31"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "2044270000",
-      "impressions": "36485",
-      "clicks": "6324",
-      "conversions": "58.1",
-      "conversionsValue": "4306.03"
-    },
-    "segments": {
-      "date": "2026-07-31"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654400",
-      "id": "987654400",
-      "name": "G_Search_Brand_Shirts_Promo_2026"
-    },
-    "metrics": {
-      "costMicros": "1324580000",
-      "impressions": "19904",
-      "clicks": "3950",
-      "conversions": "36.1",
-      "conversionsValue": "2721.60"
-    },
-    "segments": {
-      "date": "2026-07-31"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987659999",
-      "id": "987659999",
-      "name": "Search_Generic_Hungry_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "680130000",
-      "impressions": "6382",
-      "clicks": "1222",
-      "conversions": "67.8",
-      "conversionsValue": "5139.91"
-    },
-    "segments": {
-      "date": "2026-07-31"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654321",
-      "id": "987654321",
-      "name": "Search_Brand_TrueClassic_Tees_Exact"
-    },
-    "metrics": {
-      "costMicros": "2953440000",
-      "impressions": "37322",
-      "clicks": "7749",
-      "conversions": "163.2",
-      "conversionsValue": "11895.42"
-    },
-    "segments": {
-      "date": "2026-08-01"
-    }
-  },
-  {
-    "customer": "customers/1234567890",
-    "campaign": {
-      "resourceName": "customers/1234567890/campaigns/987654322",
-      "id": "987654322",
-      "name": "Search_Generic_Mens_Tees_Broad"
-    },
-    "metrics": {
-      "costMicros": "1977590000",
-      "impressions": "35538",
-      "clicks": "9811",
+      "costMicros": "1898550000",
+      "impressions": "21113",
+      "clicks": "5141",
       "conversions": "49.8",
-      "conversionsValue": "3791.80"
+      "conversionsValue": "3676.53"
     },
     "segments": {
-      "date": "2026-08-01"
+      "date": "2026-07-19"
     }
   },
   {
@@ -1195,14 +367,14 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1196880000",
-      "impressions": "20468",
-      "clicks": "5206",
-      "conversions": "34.6",
-      "conversionsValue": "2662.45"
+      "costMicros": "1268650000",
+      "impressions": "13009",
+      "clicks": "3128",
+      "conversions": "40.2",
+      "conversionsValue": "2848.40"
     },
     "segments": {
-      "date": "2026-08-01"
+      "date": "2026-07-19"
     }
   },
   {
@@ -1213,14 +385,50 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "691510000",
-      "impressions": "12268",
-      "clicks": "2609",
-      "conversions": "66.8",
-      "conversionsValue": "5314.64"
+      "costMicros": "659400000",
+      "impressions": "6091",
+      "clicks": "1265",
+      "conversions": "68.5",
+      "conversionsValue": "5053.29"
     },
     "segments": {
-      "date": "2026-08-01"
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "584360000",
+      "impressions": "7483",
+      "clicks": "1201",
+      "conversions": "12.9",
+      "conversionsValue": "953.23"
+    },
+    "segments": {
+      "date": "2026-07-19"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "435210000",
+      "impressions": "6477",
+      "clicks": "1498",
+      "conversions": "7.7",
+      "conversionsValue": "549.01"
+    },
+    "segments": {
+      "date": "2026-07-19"
     }
   },
   {
@@ -1231,14 +439,14 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2630570000",
-      "impressions": "31271",
-      "clicks": "5304",
-      "conversions": "134.5",
-      "conversionsValue": "8828.38"
+      "costMicros": "2661260000",
+      "impressions": "34903",
+      "clicks": "7987",
+      "conversions": "133.5",
+      "conversionsValue": "9028.46"
     },
     "segments": {
-      "date": "2026-08-02"
+      "date": "2026-07-20"
     }
   },
   {
@@ -1249,14 +457,14 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "2242310000",
-      "impressions": "31500",
-      "clicks": "6622",
-      "conversions": "54.9",
-      "conversionsValue": "4549.95"
+      "costMicros": "2079490000",
+      "impressions": "29931",
+      "clicks": "5328",
+      "conversions": "58.6",
+      "conversionsValue": "4088.46"
     },
     "segments": {
-      "date": "2026-08-02"
+      "date": "2026-07-20"
     }
   },
   {
@@ -1267,14 +475,14 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1479030000",
-      "impressions": "14994",
-      "clicks": "2435",
-      "conversions": "45.6",
-      "conversionsValue": "3523.62"
+      "costMicros": "1158340000",
+      "impressions": "20673",
+      "clicks": "3583",
+      "conversions": "36.5",
+      "conversionsValue": "2706.38"
     },
     "segments": {
-      "date": "2026-08-02"
+      "date": "2026-07-20"
     }
   },
   {
@@ -1285,14 +493,50 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "661150000",
-      "impressions": "11304",
-      "clicks": "1889",
-      "conversions": "63.3",
-      "conversionsValue": "4939.18"
+      "costMicros": "651560000",
+      "impressions": "9790",
+      "clicks": "1942",
+      "conversions": "53.6",
+      "conversionsValue": "4045.67"
     },
     "segments": {
-      "date": "2026-08-02"
+      "date": "2026-07-20"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "579200000",
+      "impressions": "4654",
+      "clicks": "684",
+      "conversions": "14.5",
+      "conversionsValue": "1039.96"
+    },
+    "segments": {
+      "date": "2026-07-20"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "398700000",
+      "impressions": "3640",
+      "clicks": "792",
+      "conversions": "5.9",
+      "conversionsValue": "445.08"
+    },
+    "segments": {
+      "date": "2026-07-20"
     }
   },
   {
@@ -1303,14 +547,14 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2814210000",
-      "impressions": "47350",
-      "clicks": "7149",
-      "conversions": "134.9",
-      "conversionsValue": "8945.49"
+      "costMicros": "2826380000",
+      "impressions": "39758",
+      "clicks": "6895",
+      "conversions": "145.5",
+      "conversionsValue": "11060.47"
     },
     "segments": {
-      "date": "2026-08-03"
+      "date": "2026-07-21"
     }
   },
   {
@@ -1321,14 +565,14 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "1900390000",
-      "impressions": "26335",
-      "clicks": "5556",
-      "conversions": "53.8",
-      "conversionsValue": "3486.57"
+      "costMicros": "1585450000",
+      "impressions": "20212",
+      "clicks": "3958",
+      "conversions": "40.2",
+      "conversionsValue": "2924.44"
     },
     "segments": {
-      "date": "2026-08-03"
+      "date": "2026-07-21"
     }
   },
   {
@@ -1339,14 +583,230 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1180960000",
-      "impressions": "18412",
-      "clicks": "2654",
+      "costMicros": "984000000",
+      "impressions": "11813",
+      "clicks": "1656",
+      "conversions": "22.3",
+      "conversionsValue": "1696.60"
+    },
+    "segments": {
+      "date": "2026-07-21"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "602400000",
+      "impressions": "10318",
+      "clicks": "1518",
+      "conversions": "57.5",
+      "conversionsValue": "4205.58"
+    },
+    "segments": {
+      "date": "2026-07-21"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "602700000",
+      "impressions": "5627",
+      "clicks": "1349",
+      "conversions": "15.6",
+      "conversionsValue": "1053.47"
+    },
+    "segments": {
+      "date": "2026-07-21"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "441130000",
+      "impressions": "5991",
+      "clicks": "774",
+      "conversions": "6.9",
+      "conversionsValue": "525.00"
+    },
+    "segments": {
+      "date": "2026-07-21"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2615630000",
+      "impressions": "33399",
+      "clicks": "4591",
+      "conversions": "124.7",
+      "conversionsValue": "9128.13"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1996600000",
+      "impressions": "28993",
+      "clicks": "6661",
+      "conversions": "52.0",
+      "conversionsValue": "3888.52"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1111100000",
+      "impressions": "8995",
+      "clicks": "1888",
+      "conversions": "27.3",
+      "conversionsValue": "2315.25"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "679220000",
+      "impressions": "5824",
+      "clicks": "1375",
+      "conversions": "57.5",
+      "conversionsValue": "4923.45"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "560640000",
+      "impressions": "4651",
+      "clicks": "1174",
+      "conversions": "11.8",
+      "conversionsValue": "1031.83"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "378460000",
+      "impressions": "4386",
+      "clicks": "674",
+      "conversions": "6.4",
+      "conversionsValue": "455.60"
+    },
+    "segments": {
+      "date": "2026-07-22"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2749880000",
+      "impressions": "32528",
+      "clicks": "8259",
+      "conversions": "124.0",
+      "conversionsValue": "9730.22"
+    },
+    "segments": {
+      "date": "2026-07-23"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "2048430000",
+      "impressions": "19787",
+      "clicks": "3056",
+      "conversions": "54.8",
+      "conversionsValue": "4500.07"
+    },
+    "segments": {
+      "date": "2026-07-23"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1204260000",
+      "impressions": "12433",
+      "clicks": "3172",
       "conversions": "34.4",
-      "conversionsValue": "2408.34"
+      "conversionsValue": "2820.90"
     },
     "segments": {
-      "date": "2026-08-03"
+      "date": "2026-07-23"
     }
   },
   {
@@ -1357,14 +817,50 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "679870000",
-      "impressions": "6295",
-      "clicks": "961",
-      "conversions": "64.8",
-      "conversionsValue": "5608.25"
+      "costMicros": "650400000",
+      "impressions": "8861",
+      "clicks": "2452",
+      "conversions": "60.5",
+      "conversionsValue": "4657.16"
     },
     "segments": {
-      "date": "2026-08-03"
+      "date": "2026-07-23"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "561320000",
+      "impressions": "9372",
+      "clicks": "1230",
+      "conversions": "14.0",
+      "conversionsValue": "1027.25"
+    },
+    "segments": {
+      "date": "2026-07-23"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "389490000",
+      "impressions": "4182",
+      "clicks": "953",
+      "conversions": "7.0",
+      "conversionsValue": "448.21"
+    },
+    "segments": {
+      "date": "2026-07-23"
     }
   },
   {
@@ -1375,14 +871,14 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "3264510000",
-      "impressions": "28687",
-      "clicks": "6010",
-      "conversions": "165.4",
-      "conversionsValue": "12413.37"
+      "costMicros": "2729910000",
+      "impressions": "23550",
+      "clicks": "3102",
+      "conversions": "128.4",
+      "conversionsValue": "10040.13"
     },
     "segments": {
-      "date": "2026-08-04"
+      "date": "2026-07-24"
     }
   },
   {
@@ -1393,14 +889,14 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "2033660000",
-      "impressions": "30283",
-      "clicks": "4135",
-      "conversions": "60.6",
-      "conversionsValue": "4584.82"
+      "costMicros": "1897790000",
+      "impressions": "31610",
+      "clicks": "7611",
+      "conversions": "60.1",
+      "conversionsValue": "4238.05"
     },
     "segments": {
-      "date": "2026-08-04"
+      "date": "2026-07-24"
     }
   },
   {
@@ -1411,14 +907,14 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1226620000",
-      "impressions": "14509",
-      "clicks": "3684",
-      "conversions": "32.2",
-      "conversionsValue": "2529.12"
+      "costMicros": "1267510000",
+      "impressions": "20227",
+      "clicks": "3635",
+      "conversions": "33.2",
+      "conversionsValue": "2625.19"
     },
     "segments": {
-      "date": "2026-08-04"
+      "date": "2026-07-24"
     }
   },
   {
@@ -1429,11 +925,1235 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "649960000",
-      "impressions": "6278",
-      "clicks": "969",
+      "costMicros": "621870000",
+      "impressions": "8947",
+      "clicks": "1337",
+      "conversions": "57.3",
+      "conversionsValue": "4915.79"
+    },
+    "segments": {
+      "date": "2026-07-24"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "557980000",
+      "impressions": "9160",
+      "clicks": "1413",
+      "conversions": "12.2",
+      "conversionsValue": "872.56"
+    },
+    "segments": {
+      "date": "2026-07-24"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "387060000",
+      "impressions": "5348",
+      "clicks": "1287",
+      "conversions": "5.5",
+      "conversionsValue": "425.12"
+    },
+    "segments": {
+      "date": "2026-07-24"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3156650000",
+      "impressions": "38239",
+      "clicks": "7276",
+      "conversions": "141.4",
+      "conversionsValue": "10424.14"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1811900000",
+      "impressions": "30676",
+      "clicks": "4698",
+      "conversions": "46.8",
+      "conversionsValue": "3491.07"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1290750000",
+      "impressions": "16244",
+      "clicks": "2892",
+      "conversions": "38.8",
+      "conversionsValue": "2717.76"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "622380000",
+      "impressions": "8652",
+      "clicks": "2123",
+      "conversions": "61.2",
+      "conversionsValue": "4318.80"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "680100000",
+      "impressions": "10849",
+      "clicks": "1392",
+      "conversions": "19.9",
+      "conversionsValue": "1324.81"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "377590000",
+      "impressions": "6329",
+      "clicks": "1393",
+      "conversions": "6.2",
+      "conversionsValue": "490.28"
+    },
+    "segments": {
+      "date": "2026-07-25"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3203100000",
+      "impressions": "55861",
+      "clicks": "10874",
+      "conversions": "188.9",
+      "conversionsValue": "12374.38"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1801710000",
+      "impressions": "17509",
+      "clicks": "4747",
+      "conversions": "49.8",
+      "conversionsValue": "3121.14"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1183770000",
+      "impressions": "10623",
+      "clicks": "1639",
+      "conversions": "30.9",
+      "conversionsValue": "2415.63"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "690080000",
+      "impressions": "9469",
+      "clicks": "2123",
+      "conversions": "65.1",
+      "conversionsValue": "5279.18"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "623590000",
+      "impressions": "5716",
+      "clicks": "1451",
+      "conversions": "14.2",
+      "conversionsValue": "1068.43"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "434850000",
+      "impressions": "5777",
+      "clicks": "1295",
+      "conversions": "7.0",
+      "conversionsValue": "578.54"
+    },
+    "segments": {
+      "date": "2026-07-26"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2419280000",
+      "impressions": "21977",
+      "clicks": "5690",
+      "conversions": "107.0",
+      "conversionsValue": "7822.25"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1910370000",
+      "impressions": "29847",
+      "clicks": "4894",
+      "conversions": "53.7",
+      "conversionsValue": "3439.02"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1178930000",
+      "impressions": "17913",
+      "clicks": "3237",
+      "conversions": "30.4",
+      "conversionsValue": "2277.41"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "634830000",
+      "impressions": "6291",
+      "clicks": "1490",
+      "conversions": "62.6",
+      "conversionsValue": "5365.38"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "602750000",
+      "impressions": "9108",
+      "clicks": "1221",
+      "conversions": "13.8",
+      "conversionsValue": "1071.46"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "421570000",
+      "impressions": "4301",
+      "clicks": "742",
+      "conversions": "7.0",
+      "conversionsValue": "546.98"
+    },
+    "segments": {
+      "date": "2026-07-27"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3059680000",
+      "impressions": "49183",
+      "clicks": "11935",
+      "conversions": "140.0",
+      "conversionsValue": "11577.65"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "2168330000",
+      "impressions": "28372",
+      "clicks": "4622",
+      "conversions": "62.1",
+      "conversionsValue": "4928.35"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1134680000",
+      "impressions": "13217",
+      "clicks": "2972",
+      "conversions": "30.4",
+      "conversionsValue": "2198.50"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "633890000",
+      "impressions": "6039",
+      "clicks": "1538",
+      "conversions": "67.6",
+      "conversionsValue": "5062.32"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "564480000",
+      "impressions": "10119",
+      "clicks": "2073",
+      "conversions": "13.3",
+      "conversionsValue": "1065.47"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "472000000",
+      "impressions": "7439",
+      "clicks": "1830",
+      "conversions": "7.9",
+      "conversionsValue": "632.11"
+    },
+    "segments": {
+      "date": "2026-07-28"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2858630000",
+      "impressions": "27040",
+      "clicks": "7355",
+      "conversions": "139.1",
+      "conversionsValue": "9957.27"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1849900000",
+      "impressions": "29689",
+      "clicks": "6047",
+      "conversions": "46.4",
+      "conversionsValue": "3950.23"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1080000000",
+      "impressions": "19305",
+      "clicks": "2540",
+      "conversions": "31.3",
+      "conversionsValue": "2318.06"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "658930000",
+      "impressions": "5836",
+      "clicks": "1024",
       "conversions": "62.0",
-      "conversionsValue": "5088.97"
+      "conversionsValue": "4044.58"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "640750000",
+      "impressions": "9454",
+      "clicks": "2147",
+      "conversions": "15.5",
+      "conversionsValue": "1340.78"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "400430000",
+      "impressions": "4396",
+      "clicks": "805",
+      "conversions": "6.6",
+      "conversionsValue": "565.66"
+    },
+    "segments": {
+      "date": "2026-07-29"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2931620000",
+      "impressions": "35735",
+      "clicks": "9751",
+      "conversions": "165.5",
+      "conversionsValue": "11147.71"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1762390000",
+      "impressions": "28384",
+      "clicks": "4805",
+      "conversions": "45.1",
+      "conversionsValue": "3311.16"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1156140000",
+      "impressions": "19481",
+      "clicks": "4323",
+      "conversions": "34.8",
+      "conversionsValue": "2721.79"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "672180000",
+      "impressions": "7301",
+      "clicks": "2003",
+      "conversions": "66.0",
+      "conversionsValue": "4368.50"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "532320000",
+      "impressions": "5492",
+      "clicks": "830",
+      "conversions": "10.4",
+      "conversionsValue": "854.83"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "391630000",
+      "impressions": "4431",
+      "clicks": "967",
+      "conversions": "6.2",
+      "conversionsValue": "468.69"
+    },
+    "segments": {
+      "date": "2026-07-30"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3042290000",
+      "impressions": "32503",
+      "clicks": "4935",
+      "conversions": "130.6",
+      "conversionsValue": "11152.87"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1905480000",
+      "impressions": "23571",
+      "clicks": "3432",
+      "conversions": "55.6",
+      "conversionsValue": "4347.57"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1354520000",
+      "impressions": "22290",
+      "clicks": "4661",
+      "conversions": "44.5",
+      "conversionsValue": "3203.11"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "632030000",
+      "impressions": "10343",
+      "clicks": "2187",
+      "conversions": "58.6",
+      "conversionsValue": "4771.16"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "599540000",
+      "impressions": "10459",
+      "clicks": "2683",
+      "conversions": "16.2",
+      "conversionsValue": "1253.28"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "377920000",
+      "impressions": "4782",
+      "clicks": "920",
+      "conversions": "6.5",
+      "conversionsValue": "466.21"
+    },
+    "segments": {
+      "date": "2026-07-31"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2479680000",
+      "impressions": "24954",
+      "clicks": "6861",
+      "conversions": "118.7",
+      "conversionsValue": "8928.96"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1908030000",
+      "impressions": "25894",
+      "clicks": "5477",
+      "conversions": "50.9",
+      "conversionsValue": "3892.84"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1365130000",
+      "impressions": "19696",
+      "clicks": "4216",
+      "conversions": "36.5",
+      "conversionsValue": "2939.85"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "633130000",
+      "impressions": "10416",
+      "clicks": "2658",
+      "conversions": "61.9",
+      "conversionsValue": "4593.39"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "596020000",
+      "impressions": "5761",
+      "clicks": "990",
+      "conversions": "13.0",
+      "conversionsValue": "1048.20"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "415690000",
+      "impressions": "6541",
+      "clicks": "925",
+      "conversions": "6.7",
+      "conversionsValue": "486.53"
+    },
+    "segments": {
+      "date": "2026-08-01"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3101350000",
+      "impressions": "46871",
+      "clicks": "11094",
+      "conversions": "144.0",
+      "conversionsValue": "11711.08"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "2023880000",
+      "impressions": "25879",
+      "clicks": "6281",
+      "conversions": "51.6",
+      "conversionsValue": "4336.72"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1433900000",
+      "impressions": "14316",
+      "clicks": "3397",
+      "conversions": "41.4",
+      "conversionsValue": "2998.07"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "671350000",
+      "impressions": "11045",
+      "clicks": "2905",
+      "conversions": "63.4",
+      "conversionsValue": "5514.89"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "704250000",
+      "impressions": "6036",
+      "clicks": "1470",
+      "conversions": "16.6",
+      "conversionsValue": "1469.09"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "416890000",
+      "impressions": "4520",
+      "clicks": "574",
+      "conversions": "7.3",
+      "conversionsValue": "549.73"
+    },
+    "segments": {
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "2780110000",
+      "impressions": "28242",
+      "clicks": "6807",
+      "conversions": "136.0",
+      "conversionsValue": "10223.35"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "2071120000",
+      "impressions": "20438",
+      "clicks": "4365",
+      "conversions": "55.9",
+      "conversionsValue": "4494.25"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1303520000",
+      "impressions": "10935",
+      "clicks": "2219",
+      "conversions": "36.8",
+      "conversionsValue": "2550.23"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "657190000",
+      "impressions": "5481",
+      "clicks": "1076",
+      "conversions": "72.4",
+      "conversionsValue": "4666.81"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "588400000",
+      "impressions": "5219",
+      "clicks": "727",
+      "conversions": "12.9",
+      "conversionsValue": "1063.53"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "389970000",
+      "impressions": "5089",
+      "clicks": "876",
+      "conversions": "6.2",
+      "conversionsValue": "411.66"
+    },
+    "segments": {
+      "date": "2026-08-03"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654321",
+      "id": "987654321",
+      "name": "Search_Brand_TrueClassic_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "3018550000",
+      "impressions": "51518",
+      "clicks": "9985",
+      "conversions": "167.0",
+      "conversionsValue": "11263.44"
+    },
+    "segments": {
+      "date": "2026-08-04"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654322",
+      "id": "987654322",
+      "name": "Search_Generic_Mens_Tees_Broad"
+    },
+    "metrics": {
+      "costMicros": "1932090000",
+      "impressions": "26121",
+      "clicks": "3461",
+      "conversions": "57.1",
+      "conversionsValue": "4291.71"
+    },
+    "segments": {
+      "date": "2026-08-04"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654400",
+      "id": "987654400",
+      "name": "G_Search_Brand_Shirts_Promo_2026"
+    },
+    "metrics": {
+      "costMicros": "1250640000",
+      "impressions": "21987",
+      "clicks": "3906",
+      "conversions": "32.9",
+      "conversionsValue": "2414.36"
+    },
+    "segments": {
+      "date": "2026-08-04"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987659999",
+      "id": "987659999",
+      "name": "Search_Generic_Hungry_Tees_Exact"
+    },
+    "metrics": {
+      "costMicros": "685490000",
+      "impressions": "8364",
+      "clicks": "2271",
+      "conversions": "60.9",
+      "conversionsValue": "4359.33"
+    },
+    "segments": {
+      "date": "2026-08-04"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "576470000",
+      "impressions": "6702",
+      "clicks": "1304",
+      "conversions": "14.1",
+      "conversionsValue": "909.82"
+    },
+    "segments": {
+      "date": "2026-08-04"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "367430000",
+      "impressions": "4403",
+      "clicks": "923",
+      "conversions": "6.1",
+      "conversionsValue": "422.13"
     },
     "segments": {
       "date": "2026-08-04"
@@ -1447,11 +2167,11 @@
       "name": "Search_Brand_TrueClassic_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "2927740000",
-      "impressions": "32603",
-      "clicks": "8297",
-      "conversions": "141.0",
-      "conversionsValue": "10162.32"
+      "costMicros": "2750400000",
+      "impressions": "41668",
+      "clicks": "10435",
+      "conversions": "143.3",
+      "conversionsValue": "10531.45"
     },
     "segments": {
       "date": "2026-08-05"
@@ -1465,11 +2185,11 @@
       "name": "Search_Generic_Mens_Tees_Broad"
     },
     "metrics": {
-      "costMicros": "2005210000",
-      "impressions": "16914",
-      "clicks": "2455",
-      "conversions": "55.8",
-      "conversionsValue": "3857.71"
+      "costMicros": "1722460000",
+      "impressions": "13838",
+      "clicks": "2584",
+      "conversions": "43.8",
+      "conversionsValue": "3166.97"
     },
     "segments": {
       "date": "2026-08-05"
@@ -1483,11 +2203,11 @@
       "name": "G_Search_Brand_Shirts_Promo_2026"
     },
     "metrics": {
-      "costMicros": "1234820000",
-      "impressions": "18506",
-      "clicks": "2648",
-      "conversions": "37.9",
-      "conversionsValue": "2434.56"
+      "costMicros": "1164860000",
+      "impressions": "14470",
+      "clicks": "1764",
+      "conversions": "35.6",
+      "conversionsValue": "2504.95"
     },
     "segments": {
       "date": "2026-08-05"
@@ -1501,11 +2221,47 @@
       "name": "Search_Generic_Hungry_Tees_Exact"
     },
     "metrics": {
-      "costMicros": "682900000",
-      "impressions": "6456",
-      "clicks": "1290",
-      "conversions": "82.3",
-      "conversionsValue": "5523.74"
+      "costMicros": "660560000",
+      "impressions": "8126",
+      "clicks": "1573",
+      "conversions": "55.6",
+      "conversionsValue": "4603.97"
+    },
+    "segments": {
+      "date": "2026-08-05"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654325",
+      "id": "987654325",
+      "name": "Brand Search - True Classic Tees Exact"
+    },
+    "metrics": {
+      "costMicros": "524600000",
+      "impressions": "7773",
+      "clicks": "1370",
+      "conversions": "10.8",
+      "conversionsValue": "930.40"
+    },
+    "segments": {
+      "date": "2026-08-05"
+    }
+  },
+  {
+    "customer": "customers/1234567890",
+    "campaign": {
+      "resourceName": "customers/1234567890/campaigns/987654401",
+      "id": "987654401",
+      "name": "G Ads Brand Oxford Shirts Promo 26"
+    },
+    "metrics": {
+      "costMicros": "370480000",
+      "impressions": "4456",
+      "clicks": "1096",
+      "conversions": "5.1",
+      "conversionsValue": "374.60"
     },
     "segments": {
       "date": "2026-08-05"

@@ -195,6 +195,77 @@ CAMPAIGNS: list[CampaignSpec] = [
         map_in_id_map=False,  # intentional unmapped ID
         daily_budget_cap=700.0,
     ),
+    # --- Fuzzy-match leftovers: names are near-aliases of mapped campaigns ---
+    # Agent should map these to the existing unified_* ids with high confidence.
+    CampaignSpec(
+        platform="meta",
+        funnel="prospecting",
+        campaign_id="23851098235",
+        campaign_name="TC US Prospecting Men's Tees Broad - 2026",
+        product="tees",
+        unified_campaign="uc_meta_prospecting_tees",  # intended agent target
+        unified_sku="TC-TEE-CREW",
+        base_spend=800.0,
+        beta=5000.0,
+        k=2500.0,
+        gamma=1.3,
+        role="fuzzy_alias",
+        map_in_id_map=False,
+    ),
+    CampaignSpec(
+        platform="meta",
+        funnel="retargeting",
+        campaign_id="23851098301",
+        campaign_name="Facebook Retarget Tees Q3 v2",
+        product="tees",
+        unified_campaign="uc_meta_retargeting_tees",
+        unified_sku="TC-TEE-CREW",
+        base_spend=450.0,
+        beta=3500.0,
+        k=1200.0,
+        gamma=1.5,
+        role="fuzzy_alias",
+        map_in_id_map=False,
+    ),
+    CampaignSpec(
+        platform="google",
+        funnel="brand",
+        campaign_id="987654325",
+        campaign_name="Brand Search - True Classic Tees Exact",
+        product="tees",
+        unified_campaign="uc_google_brand_tees",
+        unified_sku="TC-TEE-CREW",
+        base_spend=600.0,
+        beta=7000.0,
+        k=1800.0,
+        gamma=2.0,
+        role="fuzzy_alias",
+        map_in_id_map=False,
+    ),
+    CampaignSpec(
+        platform="google",
+        funnel="brand",
+        campaign_id="987654401",
+        campaign_name="G Ads Brand Oxford Shirts Promo 26",
+        product="shirts",
+        unified_campaign="uc_google_brand_shirts",
+        unified_sku="TC-SHIRT-OXFORD",
+        base_spend=400.0,
+        beta=4000.0,
+        k=1500.0,
+        gamma=1.85,
+        role="fuzzy_alias",
+        map_in_id_map=False,
+    ),
+]
+
+# Orphan Shopify SKUs the agent should fuzzy-match onto canonical unified SKUs.
+ORPHAN_SKU_ALIASES: list[tuple[str, str]] = [
+    ("TC-UNKNOWN-CLEARANCE", "TC-MIXED"),
+    ("TC_TEE_CREW", "TC-TEE-CREW"),
+    ("true-classic-crew-tee", "TC-TEE-CREW"),
+    ("TC-SHIRT-OXFORD-CLR", "TC-SHIRT-OXFORD"),
+    ("boxers und sku draft", "TC-UND-BOXER"),
 ]
 
 GOOGLE_CUSTOMER = "1234567890"
@@ -444,10 +515,19 @@ def build_shopify_orders(truth: list[DayTruth], rng: RNG) -> list[dict[str, Any]
             else:
                 utm = rng.choice(["google", "google_ads", "cpc", ""])
 
-            # intentional SKU orphan on a small fraction of cash-burner orders
+            # intentional SKU orphans for agent fuzzy-match demo
             sku = t.campaign.unified_sku
-            if t.campaign.role == "cash_burner" and rng.random() < 0.08:
+            if t.campaign.role == "cash_burner" and rng.random() < 0.10:
                 sku = "TC-UNKNOWN-CLEARANCE"
+            elif t.campaign.role == "fuzzy_alias" and rng.random() < 0.20:
+                # sprinkle alias SKUs on alias campaigns
+                sku = rng.choice([a[0] for a in ORPHAN_SKU_ALIASES])
+            elif t.campaign.product == "tees" and rng.random() < 0.04:
+                sku = rng.choice(["TC_TEE_CREW", "true-classic-crew-tee"])
+            elif t.campaign.product == "shirts" and rng.random() < 0.05:
+                sku = "TC-SHIRT-OXFORD-CLR"
+            elif t.campaign.product == "underwear" and rng.random() < 0.08:
+                sku = "boxers und sku draft"
 
             orders.append(
                 {
@@ -480,19 +560,26 @@ def build_id_map() -> list[dict[str, str]]:
                 "map_status": status,
             }
         )
-    # orphan Shopify SKU with no platform path
-    rows.append(
-        {
-            "platform": "shopify",
-            "platform_campaign_id": "",
-            "campaign_name": "",
-            "unified_campaign_id": "",
-            "unified_sku": "TC-UNKNOWN-CLEARANCE",
-            "funnel_stage_hint": "",
-            "product_hint": "unknown",
-            "map_status": "UNMAPPED",
-        }
-    )
+    # orphan Shopify SKUs with no platform path (agent should reconcile these)
+    for orphan_sku, canonical in ORPHAN_SKU_ALIASES:
+        product_hint = {
+            "TC-TEE-CREW": "tees",
+            "TC-SHIRT-OXFORD": "shirts",
+            "TC-UND-BOXER": "underwear",
+            "TC-MIXED": "mixed",
+        }.get(canonical, "unknown")
+        rows.append(
+            {
+                "platform": "shopify",
+                "platform_campaign_id": "",
+                "campaign_name": "",
+                "unified_campaign_id": "",
+                "unified_sku": orphan_sku,
+                "funnel_stage_hint": "",
+                "product_hint": product_hint,
+                "map_status": "UNMAPPED",
+            }
+        )
     return rows
 
 

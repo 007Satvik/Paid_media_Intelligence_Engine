@@ -172,6 +172,13 @@ def _merge_flags(existing: list[str], extra: list[str]) -> list[str]:
 
 
 def _build_campaign_catalog(id_map: pd.DataFrame) -> list[Any]:
+    """
+    Catalog = mapped campaigns + hint-based pending entities for UNMAPPED rows.
+
+    Pending rows give the agent something concrete to match leftovers to
+    (e.g. Meta TOF Underwear → pending_meta_prospecting_underwear) without
+    putting the exact query string into the catalog.
+    """
     from .agent import CatalogEntity
 
     catalog: list[CatalogEntity] = []
@@ -190,6 +197,39 @@ def _build_campaign_catalog(id_map: pd.DataFrame) -> list[Any]:
                 unified_sku=str(row.get("unified_sku") or ""),
                 funnel_stage=str(row.get("funnel_stage_hint") or ""),
                 product_category=str(row.get("product_hint") or ""),
+            )
+        )
+
+    unmapped = id_map[
+        (id_map["platform"].isin(["meta", "google"]))
+        & (
+            (id_map["map_status"].astype(str).str.upper() == "UNMAPPED")
+            | (id_map["unified_campaign_id"].astype(str).str.len() == 0)
+        )
+    ]
+    sku_for_product = {
+        "tees": "TC-TEE-CREW",
+        "shirts": "TC-SHIRT-OXFORD",
+        "underwear": "TC-UND-BOXER",
+        "mixed": "TC-MIXED",
+    }
+    for _, row in unmapped.iterrows():
+        platform = str(row["platform"])
+        funnel = str(row.get("funnel_stage_hint") or "unknown").strip() or "unknown"
+        product = str(row.get("product_hint") or "unknown").strip() or "unknown"
+        # Descriptive label ≠ raw campaign_name (avoids trivial exact self-match)
+        pending_id = f"pending_{platform}_{funnel}_{product}"
+        pending_name = f"{platform.title()} {funnel.replace('_', ' ')} {product} campaigns"
+        catalog.append(
+            CatalogEntity(
+                entity_id=pending_id,
+                name=pending_name,
+                entity_type="campaign",
+                platform=platform,
+                unified_sku=sku_for_product.get(product, ""),
+                funnel_stage=funnel,
+                product_category=product,
+                extra={"pending": True, "source_campaign_name": str(row.get("campaign_name") or "")},
             )
         )
     return catalog
@@ -243,7 +283,27 @@ def _build_sku_catalog(id_map: pd.DataFrame, unified: pd.DataFrame) -> list[Any]
                 product_category=product,
             ),
         )
-    return list(skus.values())
+    # Human-readable aliases help the agent fuzzy-match messy Shopify SKUs
+    alias_rows = [
+        ("true classic crew tee", "TC-TEE-CREW", "tees"),
+        ("TC TEE CREW", "TC-TEE-CREW", "tees"),
+        ("oxford shirt clearance", "TC-SHIRT-OXFORD", "shirts"),
+        ("boxers underwear", "TC-UND-BOXER", "underwear"),
+        ("mixed clearance unknown", "TC-MIXED", "mixed"),
+    ]
+    catalog = list(skus.values())
+    for alias_name, canonical, product in alias_rows:
+        catalog.append(
+            CatalogEntity(
+                entity_id=canonical,
+                name=alias_name,
+                entity_type="sku",
+                unified_sku=canonical,
+                product_category=product,
+                extra={"alias": True},
+            )
+        )
+    return catalog
 
 
 def apply_agent_campaign_reconciliation(
@@ -309,19 +369,30 @@ def apply_agent_campaign_reconciliation(
         applied = False
         new_unified = result.matched_id
         new_sku = result.unified_sku or ""
+        # Normalize pending_* catalog hits into durable unified ids
+        if new_unified and str(new_unified).startswith("pending_"):
+            new_unified = propose_unified_campaign_id(name, platform)
         if result.create_new and not new_unified:
             new_unified = propose_unified_campaign_id(name, platform)
 
-        if result.confidence >= min_conf and new_unified:
+        # Apply when confident on a catalog/pending match, OR create_new with usable labels
+        create_new_ok = bool(result.create_new) and (
+            (result.funnel_stage and result.funnel_stage != "unknown")
+            or (result.product_category and result.product_category != "unknown")
+        )
+        conf_ok = result.confidence >= min_conf
+        create_conf_ok = result.confidence >= max(0.5, min_conf - 0.1)
+        should_apply = bool(new_unified) and (
+            conf_ok or (create_new_ok and create_conf_ok)
+        )
+
+        if should_apply:
             sel = (df["platform"] == platform) & (
                 df["platform_campaign_id"] == str(row["platform_campaign_id"])
             )
             df.loc[sel, "unified_campaign_id"] = new_unified
             if new_sku:
                 df.loc[sel, "unified_sku"] = new_sku
-            if result.funnel_stage and result.funnel_stage != "unknown":
-                # only fill if currently unknown / empty hint path later
-                pass
             df.loc[sel, "map_status"] = "agent_matched"
             df.loc[sel, "agent_match_confidence"] = result.confidence
             df.loc[sel, "agent_match_rationale"] = result.rationale
@@ -429,8 +500,18 @@ def apply_agent_sku_reconciliation(
             continue
 
         applied = False
-        target = result.matched_id or result.unified_sku
-        if result.confidence >= min_conf and target:
+        target = result.unified_sku or result.matched_id
+        # Clearance / unknown orphans → prefer TC-MIXED when model is unsure but names hint mixed
+        if (not target or str(target).startswith("TC-UNKNOWN")) and (
+            "clearance" in sku.lower() or "unknown" in sku.lower()
+        ):
+            if result.product_category in {"mixed", "tees", "unknown"} and result.confidence >= 0.45:
+                target = "TC-MIXED" if result.product_category in {"mixed", "unknown"} else "TC-TEE-CREW"
+
+        sku_conf_ok = result.confidence >= min_conf or (
+            result.confidence >= max(0.45, min_conf - 0.15) and bool(target)
+        )
+        if sku_conf_ok and target and not str(target).startswith("TC-UNKNOWN"):
             df.loc[df["sku"] == sku, "reconciled_sku"] = target
             df.loc[df["sku"] == sku, "sku_map_status"] = "agent_matched"
             df.loc[df["sku"] == sku, "sku_agent_confidence"] = result.confidence
