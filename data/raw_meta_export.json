@@ -1,0 +1,2993 @@
+[
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "2968.85",
+    "impressions": "221743",
+    "clicks": "4946",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4139"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "429"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "105"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "7564.55"
+      }
+    ],
+    "date_start": "2026-07-16",
+    "date_stop": "2026-07-16"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "925.65",
+    "impressions": "58410",
+    "clicks": "1181",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "808"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "154"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "40"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3129.27"
+      }
+    ],
+    "date_start": "2026-07-16",
+    "date_stop": "2026-07-16"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "784.36",
+    "impressions": "58193",
+    "clicks": "988",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "692"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "68"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "23"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1595.22"
+      }
+    ],
+    "date_start": "2026-07-16",
+    "date_stop": "2026-07-16"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "644.05",
+    "impressions": "51189",
+    "clicks": "1372",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1194"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "59"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "16"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1108.53"
+      }
+    ],
+    "date_start": "2026-07-16",
+    "date_stop": "2026-07-16"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2446.87",
+    "impressions": "153208",
+    "clicks": "2837",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2036"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "108"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "32"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2275.05"
+      }
+    ],
+    "date_start": "2026-07-16",
+    "date_stop": "2026-07-16"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3193.95",
+    "impressions": "259179",
+    "clicks": "4484",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3189"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "396"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "126"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8539.24"
+      }
+    ],
+    "date_start": "2026-07-17",
+    "date_stop": "2026-07-17"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "984.56",
+    "impressions": "59402",
+    "clicks": "734",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "581"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "130"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "49"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3702.85"
+      }
+    ],
+    "date_start": "2026-07-17",
+    "date_stop": "2026-07-17"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "917.41",
+    "impressions": "65466",
+    "clicks": "1813",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1458"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "88"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "25"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1863.58"
+      }
+    ],
+    "date_start": "2026-07-17",
+    "date_stop": "2026-07-17"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "748.48",
+    "impressions": "53256",
+    "clicks": "1008",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "726"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "50"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "19"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1334.91"
+      }
+    ],
+    "date_start": "2026-07-17",
+    "date_stop": "2026-07-17"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2577.13",
+    "impressions": "189299",
+    "clicks": "4822",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3577"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "121"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "32"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2086.87"
+      }
+    ],
+    "date_start": "2026-07-17",
+    "date_stop": "2026-07-17"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3910.49",
+    "impressions": "233913",
+    "clicks": "4511",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3723"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "550"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "143"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "10644.50"
+      }
+    ],
+    "date_start": "2026-07-18",
+    "date_stop": "2026-07-18"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1275.55",
+    "impressions": "74708",
+    "clicks": "1144",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "777"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "280"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "64"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4133.67"
+      }
+    ],
+    "date_start": "2026-07-18",
+    "date_stop": "2026-07-18"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "903.19",
+    "impressions": "68958",
+    "clicks": "1096",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "838"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "74"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "25"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1823.37"
+      }
+    ],
+    "date_start": "2026-07-18",
+    "date_stop": "2026-07-18"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "730.63",
+    "impressions": "52547",
+    "clicks": "847",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "585"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "53"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "14"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1118.80"
+      }
+    ],
+    "date_start": "2026-07-18",
+    "date_stop": "2026-07-18"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2673.44",
+    "impressions": "210964",
+    "clicks": "5371",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3833"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "77"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2171.75"
+      }
+    ],
+    "date_start": "2026-07-18",
+    "date_stop": "2026-07-18"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3697.69",
+    "impressions": "253078",
+    "clicks": "5523",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4267"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "403"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "118"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9188.38"
+      }
+    ],
+    "date_start": "2026-07-19",
+    "date_stop": "2026-07-19"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1197.53",
+    "impressions": "99461",
+    "clicks": "2011",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1645"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "250"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-07-19",
+    "date_stop": "2026-07-19"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "983.96",
+    "impressions": "62802",
+    "clicks": "1584",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1161"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "122"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "27"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2293.76"
+      }
+    ],
+    "date_start": "2026-07-19",
+    "date_stop": "2026-07-19"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "812.93",
+    "impressions": "62540",
+    "clicks": "1299",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "850"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "50"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-07-19",
+    "date_stop": "2026-07-19"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2456.49",
+    "impressions": "186606",
+    "clicks": "4513",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4059"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "99"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2077.47"
+      }
+    ],
+    "date_start": "2026-07-19",
+    "date_stop": "2026-07-19"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3224.17",
+    "impressions": "256940",
+    "clicks": "3325",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2353"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "457"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "105"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8002.56"
+      }
+    ],
+    "date_start": "2026-07-20",
+    "date_stop": "2026-07-20"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1104.91",
+    "impressions": "93374",
+    "clicks": "2310",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1910"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "210"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "61"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4558.24"
+      }
+    ],
+    "date_start": "2026-07-20",
+    "date_stop": "2026-07-20"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "884.47",
+    "impressions": "53515",
+    "clicks": "1231",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "920"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "83"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "22"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1647.86"
+      }
+    ],
+    "date_start": "2026-07-20",
+    "date_stop": "2026-07-20"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "663.56",
+    "impressions": "42842",
+    "clicks": "754",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "592"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "57"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "15"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1074.16"
+      }
+    ],
+    "date_start": "2026-07-20",
+    "date_stop": "2026-07-20"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2445.75",
+    "impressions": "136293",
+    "clicks": "2500",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1813"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "83"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2030.36"
+      }
+    ],
+    "date_start": "2026-07-20",
+    "date_stop": "2026-07-20"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3280.30",
+    "impressions": "215575",
+    "clicks": "3883",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2546"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "377"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "115"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8715.38"
+      }
+    ],
+    "date_start": "2026-07-21",
+    "date_stop": "2026-07-21"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "913.42",
+    "impressions": "77443",
+    "clicks": "1458",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1024"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "164"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "47"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3447.07"
+      }
+    ],
+    "date_start": "2026-07-21",
+    "date_stop": "2026-07-21"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "866.54",
+    "impressions": "71416",
+    "clicks": "1036",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "740"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "84"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "21"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1715.89"
+      }
+    ],
+    "date_start": "2026-07-21",
+    "date_stop": "2026-07-21"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "731.09",
+    "impressions": "48940",
+    "clicks": "627",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "561"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "39"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "15"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1361.55"
+      }
+    ],
+    "date_start": "2026-07-21",
+    "date_stop": "2026-07-21"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2483.52",
+    "impressions": "200028",
+    "clicks": "3564",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2823"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "83"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "26"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2259.32"
+      }
+    ],
+    "date_start": "2026-07-21",
+    "date_stop": "2026-07-21"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "2924.47",
+    "impressions": "208023",
+    "clicks": "4670",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4186"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "403"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "111"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9139.11"
+      }
+    ],
+    "date_start": "2026-07-22",
+    "date_stop": "2026-07-22"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1164.41",
+    "impressions": "87929",
+    "clicks": "2177",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1934"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "144"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "57"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4471.30"
+      }
+    ],
+    "date_start": "2026-07-22",
+    "date_stop": "2026-07-22"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "952.37",
+    "impressions": "74554",
+    "clicks": "1697",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1297"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "89"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-07-22",
+    "date_stop": "2026-07-22"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "667.35",
+    "impressions": "53014",
+    "clicks": "1105",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "776"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "69"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "17"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1182.04"
+      }
+    ],
+    "date_start": "2026-07-22",
+    "date_stop": "2026-07-22"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2474.88",
+    "impressions": "160870",
+    "clicks": "3971",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2598"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "76"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2004.86"
+      }
+    ],
+    "date_start": "2026-07-22",
+    "date_stop": "2026-07-22"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3062.92",
+    "impressions": "244092",
+    "clicks": "5292",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3829"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "295"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "118"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8532.65"
+      }
+    ],
+    "date_start": "2026-07-23",
+    "date_stop": "2026-07-23"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1136.55",
+    "impressions": "65467",
+    "clicks": "1255",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "943"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "197"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "62"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4012.48"
+      }
+    ],
+    "date_start": "2026-07-23",
+    "date_stop": "2026-07-23"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "972.62",
+    "impressions": "57150",
+    "clicks": "1544",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1027"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "94"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "23"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1943.06"
+      }
+    ],
+    "date_start": "2026-07-23",
+    "date_stop": "2026-07-23"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "0.00",
+    "impressions": "0",
+    "clicks": "0",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "0"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "0"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-07-23",
+    "date_stop": "2026-07-23"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2426.49",
+    "impressions": "200377",
+    "clicks": "3056",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2034"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "96"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "31"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2160.54"
+      }
+    ],
+    "date_start": "2026-07-23",
+    "date_stop": "2026-07-23"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "2965.66",
+    "impressions": "242050",
+    "clicks": "5265",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3725"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "345"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "109"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8419.69"
+      }
+    ],
+    "date_start": "2026-07-24",
+    "date_stop": "2026-07-24"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1158.82",
+    "impressions": "83065",
+    "clicks": "1822",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1506"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "212"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "59"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4467.33"
+      }
+    ],
+    "date_start": "2026-07-24",
+    "date_stop": "2026-07-24"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "795.62",
+    "impressions": "52258",
+    "clicks": "913",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "662"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "100"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "23"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1445.34"
+      }
+    ],
+    "date_start": "2026-07-24",
+    "date_stop": "2026-07-24"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "678.56",
+    "impressions": "48110",
+    "clicks": "910",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "771"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "61"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "14"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "988.97"
+      }
+    ],
+    "date_start": "2026-07-24",
+    "date_stop": "2026-07-24"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2257.58",
+    "impressions": "183847",
+    "clicks": "3795",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3026"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "64"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "25"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2064.76"
+      }
+    ],
+    "date_start": "2026-07-24",
+    "date_stop": "2026-07-24"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3853.62",
+    "impressions": "220497",
+    "clicks": "4651",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3628"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "457"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "125"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "10419.12"
+      }
+    ],
+    "date_start": "2026-07-25",
+    "date_stop": "2026-07-25"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1109.78",
+    "impressions": "77620",
+    "clicks": "1232",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "820"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "164"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "56"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4015.17"
+      }
+    ],
+    "date_start": "2026-07-25",
+    "date_stop": "2026-07-25"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "1021.42",
+    "impressions": "72226",
+    "clicks": "1555",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1019"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "98"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "25"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2042.69"
+      }
+    ],
+    "date_start": "2026-07-25",
+    "date_stop": "2026-07-25"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "700.00",
+    "impressions": "48897",
+    "clicks": "1349",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1181"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "36"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "14"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1080.72"
+      }
+    ],
+    "date_start": "2026-07-25",
+    "date_stop": "2026-07-25"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2715.52",
+    "impressions": "218241",
+    "clicks": "5712",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4173"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "102"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2106.34"
+      }
+    ],
+    "date_start": "2026-07-25",
+    "date_stop": "2026-07-25"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3500.81",
+    "impressions": "264949",
+    "clicks": "4241",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3662"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "369"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "119"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "7955.63"
+      }
+    ],
+    "date_start": "2026-07-26",
+    "date_stop": "2026-07-26"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1141.26",
+    "impressions": "90940",
+    "clicks": "2243",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2012"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "200"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "61"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4250.10"
+      }
+    ],
+    "date_start": "2026-07-26",
+    "date_stop": "2026-07-26"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "1021.02",
+    "impressions": "84249",
+    "clicks": "1181",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1048"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "92"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2056.05"
+      }
+    ],
+    "date_start": "2026-07-26",
+    "date_stop": "2026-07-26"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "727.75",
+    "impressions": "48577",
+    "clicks": "672",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "557"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "52"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-07-26",
+    "date_stop": "2026-07-26"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2505.08",
+    "impressions": "197924",
+    "clicks": "3995",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3465"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "130"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "31"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1958.42"
+      }
+    ],
+    "date_start": "2026-07-26",
+    "date_stop": "2026-07-26"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3294.83",
+    "impressions": "257406",
+    "clicks": "6578",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4453"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "321"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "110"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8804.93"
+      }
+    ],
+    "date_start": "2026-07-27",
+    "date_stop": "2026-07-27"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1189.73",
+    "impressions": "73244",
+    "clicks": "1044",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "911"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "209"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "60"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4799.75"
+      }
+    ],
+    "date_start": "2026-07-27",
+    "date_stop": "2026-07-27"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "913.51",
+    "impressions": "59178",
+    "clicks": "1282",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1065"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "102"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1806.96"
+      }
+    ],
+    "date_start": "2026-07-27",
+    "date_stop": "2026-07-27"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "740.27",
+    "impressions": "55681",
+    "clicks": "1545",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1313"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "60"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "15"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1160.91"
+      }
+    ],
+    "date_start": "2026-07-27",
+    "date_stop": "2026-07-27"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2166.09",
+    "impressions": "180454",
+    "clicks": "4925",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3585"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "82"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2026.31"
+      }
+    ],
+    "date_start": "2026-07-27",
+    "date_stop": "2026-07-27"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3348.83",
+    "impressions": "208034",
+    "clicks": "5722",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4793"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "466"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "107"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9094.72"
+      }
+    ],
+    "date_start": "2026-07-28",
+    "date_stop": "2026-07-28"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1210.47",
+    "impressions": "92030",
+    "clicks": "1597",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1092"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "181"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "63"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4439.24"
+      }
+    ],
+    "date_start": "2026-07-28",
+    "date_stop": "2026-07-28"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "844.48",
+    "impressions": "65423",
+    "clicks": "1578",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1217"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "63"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "24"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1755.96"
+      }
+    ],
+    "date_start": "2026-07-28",
+    "date_stop": "2026-07-28"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "709.66",
+    "impressions": "57772",
+    "clicks": "1191",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "837"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "63"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "15"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1251.68"
+      }
+    ],
+    "date_start": "2026-07-28",
+    "date_stop": "2026-07-28"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2275.67",
+    "impressions": "128464",
+    "clicks": "2473",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1685"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "111"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2367.58"
+      }
+    ],
+    "date_start": "2026-07-28",
+    "date_stop": "2026-07-28"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3387.09",
+    "impressions": "245004",
+    "clicks": "3318",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2692"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "393"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "112"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8911.86"
+      }
+    ],
+    "date_start": "2026-07-29",
+    "date_stop": "2026-07-29"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1125.13",
+    "impressions": "76983",
+    "clicks": "1061",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "824"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "145"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "52"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3649.46"
+      }
+    ],
+    "date_start": "2026-07-29",
+    "date_stop": "2026-07-29"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "1020.35",
+    "impressions": "86612",
+    "clicks": "2330",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1632"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "80"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "27"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2065.80"
+      }
+    ],
+    "date_start": "2026-07-29",
+    "date_stop": "2026-07-29"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "668.68",
+    "impressions": "40638",
+    "clicks": "1090",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "832"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "61"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "14"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1196.80"
+      }
+    ],
+    "date_start": "2026-07-29",
+    "date_stop": "2026-07-29"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2284.00",
+    "impressions": "134934",
+    "clicks": "2149",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1411"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "89"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2246.89"
+      }
+    ],
+    "date_start": "2026-07-29",
+    "date_stop": "2026-07-29"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3204.46",
+    "impressions": "263119",
+    "clicks": "4774",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4037"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "543"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "130"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9737.67"
+      }
+    ],
+    "date_start": "2026-07-30",
+    "date_stop": "2026-07-30"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1298.00",
+    "impressions": "96181",
+    "clicks": "1574",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1121"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "181"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "59"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4082.41"
+      }
+    ],
+    "date_start": "2026-07-30",
+    "date_stop": "2026-07-30"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "925.63",
+    "impressions": "60693",
+    "clicks": "1309",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "924"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "97"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "24"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1654.32"
+      }
+    ],
+    "date_start": "2026-07-30",
+    "date_stop": "2026-07-30"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "750.33",
+    "impressions": "44054",
+    "clicks": "915",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "797"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "47"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "18"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1320.61"
+      }
+    ],
+    "date_start": "2026-07-30",
+    "date_stop": "2026-07-30"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2061.90",
+    "impressions": "132355",
+    "clicks": "3417",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2388"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "94"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "31"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2091.72"
+      }
+    ],
+    "date_start": "2026-07-30",
+    "date_stop": "2026-07-30"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3004.07",
+    "impressions": "173137",
+    "clicks": "2252",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1487"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "522"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "122"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8433.92"
+      }
+    ],
+    "date_start": "2026-07-31",
+    "date_stop": "2026-07-31"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1117.76",
+    "impressions": "86686",
+    "clicks": "1962",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1479"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "257"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "59"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3790.09"
+      }
+    ],
+    "date_start": "2026-07-31",
+    "date_stop": "2026-07-31"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "906.80",
+    "impressions": "64404",
+    "clicks": "1631",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1431"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "58"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "22"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1748.88"
+      }
+    ],
+    "date_start": "2026-07-31",
+    "date_stop": "2026-07-31"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "775.15",
+    "impressions": "47790",
+    "clicks": "681",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "465"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "58"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "19"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1471.73"
+      }
+    ],
+    "date_start": "2026-07-31",
+    "date_stop": "2026-07-31"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2496.86",
+    "impressions": "139540",
+    "clicks": "2765",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2150"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "107"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2089.27"
+      }
+    ],
+    "date_start": "2026-07-31",
+    "date_stop": "2026-07-31"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3458.56",
+    "impressions": "280389",
+    "clicks": "4973",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3412"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "596"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "136"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9464.10"
+      }
+    ],
+    "date_start": "2026-08-01",
+    "date_stop": "2026-08-01"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1198.33",
+    "impressions": "90499",
+    "clicks": "2354",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1532"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "156"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "55"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4606.57"
+      }
+    ],
+    "date_start": "2026-08-01",
+    "date_stop": "2026-08-01"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "1054.83",
+    "impressions": "61591",
+    "clicks": "1341",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "954"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "94"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "29"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2149.12"
+      }
+    ],
+    "date_start": "2026-08-01",
+    "date_stop": "2026-08-01"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "762.59",
+    "impressions": "43481",
+    "clicks": "845",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "696"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "68"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "19"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1274.58"
+      }
+    ],
+    "date_start": "2026-08-01",
+    "date_stop": "2026-08-01"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2700.19",
+    "impressions": "183098",
+    "clicks": "5082",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3355"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "84"
+      }
+    ],
+    "action_values": [],
+    "date_start": "2026-08-01",
+    "date_stop": "2026-08-01"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3642.39",
+    "impressions": "266627",
+    "clicks": "4624",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3242"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "399"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "127"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "9605.67"
+      }
+    ],
+    "date_start": "2026-08-02",
+    "date_stop": "2026-08-02"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1020.43",
+    "impressions": "66804",
+    "clicks": "1075",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "806"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "131"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "48"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3540.56"
+      }
+    ],
+    "date_start": "2026-08-02",
+    "date_stop": "2026-08-02"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "893.47",
+    "impressions": "73610",
+    "clicks": "1083",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "812"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "100"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "23"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1706.42"
+      }
+    ],
+    "date_start": "2026-08-02",
+    "date_stop": "2026-08-02"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "708.30",
+    "impressions": "49847",
+    "clicks": "837",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "635"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "50"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "18"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1211.65"
+      }
+    ],
+    "date_start": "2026-08-02",
+    "date_stop": "2026-08-02"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2559.26",
+    "impressions": "174454",
+    "clicks": "2154",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1583"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "126"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "30"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1918.54"
+      }
+    ],
+    "date_start": "2026-08-02",
+    "date_stop": "2026-08-02"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3459.47",
+    "impressions": "209733",
+    "clicks": "3449",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2462"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "455"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "127"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "10119.60"
+      }
+    ],
+    "date_start": "2026-08-03",
+    "date_stop": "2026-08-03"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1123.44",
+    "impressions": "88737",
+    "clicks": "1707",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1165"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "163"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "57"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "4443.01"
+      }
+    ],
+    "date_start": "2026-08-03",
+    "date_stop": "2026-08-03"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "904.49",
+    "impressions": "76630",
+    "clicks": "1601",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1318"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "53"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "21"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1707.72"
+      }
+    ],
+    "date_start": "2026-08-03",
+    "date_stop": "2026-08-03"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "658.56",
+    "impressions": "44239",
+    "clicks": "880",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "676"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "43"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "16"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1123.61"
+      }
+    ],
+    "date_start": "2026-08-03",
+    "date_stop": "2026-08-03"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2832.00",
+    "impressions": "211166",
+    "clicks": "4852",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "3933"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "72"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "2117.01"
+      }
+    ],
+    "date_start": "2026-08-03",
+    "date_stop": "2026-08-03"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3252.37",
+    "impressions": "256522",
+    "clicks": "3185",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2093"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "484"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "117"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8452.87"
+      }
+    ],
+    "date_start": "2026-08-04",
+    "date_stop": "2026-08-04"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "1049.81",
+    "impressions": "69048",
+    "clicks": "1061",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "777"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "139"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "53"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3736.77"
+      }
+    ],
+    "date_start": "2026-08-04",
+    "date_stop": "2026-08-04"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "827.25",
+    "impressions": "46660",
+    "clicks": "1046",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "827"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "74"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "22"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1460.07"
+      }
+    ],
+    "date_start": "2026-08-04",
+    "date_stop": "2026-08-04"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "644.78",
+    "impressions": "42551",
+    "clicks": "833",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "614"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "38"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "14"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "976.38"
+      }
+    ],
+    "date_start": "2026-08-04",
+    "date_stop": "2026-08-04"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2391.27",
+    "impressions": "155672",
+    "clicks": "2147",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1404"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "91"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1912.67"
+      }
+    ],
+    "date_start": "2026-08-04",
+    "date_stop": "2026-08-04"
+  },
+  {
+    "campaign_id": "23851098234",
+    "campaign_name": "TC_US_Prospecting_Tees_Broad_2026",
+    "spend": "3421.74",
+    "impressions": "212058",
+    "clicks": "5411",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "4387"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "369"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "107"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "8694.96"
+      }
+    ],
+    "date_start": "2026-08-05",
+    "date_stop": "2026-08-05"
+  },
+  {
+    "campaign_id": "23851098299",
+    "campaign_name": "FB_Retargeting_Tees_Q3_V2",
+    "spend": "995.71",
+    "impressions": "68826",
+    "clicks": "1431",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1286"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "219"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "55"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "3773.81"
+      }
+    ],
+    "date_start": "2026-08-05",
+    "date_stop": "2026-08-05"
+  },
+  {
+    "campaign_id": "23851999001",
+    "campaign_name": "August push - classic fit drop v2",
+    "spend": "941.70",
+    "impressions": "76348",
+    "clicks": "1345",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1084"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "82"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "24"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1896.90"
+      }
+    ],
+    "date_start": "2026-08-05",
+    "date_stop": "2026-08-05"
+  },
+  {
+    "campaign_id": "23851888012",
+    "campaign_name": "Meta - TOF - Underwear - Broad",
+    "spend": "731.79",
+    "impressions": "59645",
+    "clicks": "1620",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "1405"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "44"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "17"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1249.78"
+      }
+    ],
+    "date_start": "2026-08-05",
+    "date_stop": "2026-08-05"
+  },
+  {
+    "campaign_id": "23851777077",
+    "campaign_name": "TC_CashBurn_Retarget_AllProducts_Aug",
+    "spend": "2413.39",
+    "impressions": "152555",
+    "clicks": "3479",
+    "actions": [
+      {
+        "action_type": "landing_page_view",
+        "value": "2643"
+      },
+      {
+        "action_type": "add_to_cart",
+        "value": "78"
+      },
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "28"
+      }
+    ],
+    "action_values": [
+      {
+        "action_type": "offsite_conversion.fb_pixel_purchase",
+        "value": "1827.98"
+      }
+    ],
+    "date_start": "2026-08-05",
+    "date_stop": "2026-08-05"
+  }
+]

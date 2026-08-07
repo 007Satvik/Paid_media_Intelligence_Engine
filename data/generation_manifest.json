@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "days": 21,
+  "start_date": "2026-07-16",
+  "end_date": "2026-08-05",
+  "n_meta_rows": 105,
+  "n_google_rows": 84,
+  "n_shopify_orders": 5470,
+  "meta_reported_purchase_value": 369150.35,
+  "google_reported_conversions_value": 466600.05,
+  "shopify_revenue": 393930.38,
+  "platform_over_shopify_ratio": 2.122,
+  "meta_rows_missing_purchase_action": 5,
+  "unmapped_campaign_ids": [
+    "23851888012",
+    "987659999"
+  ],
+  "messy_name_campaigns": [
+    "August push - classic fit drop v2"
+  ],
+  "cash_burner_campaigns": [
+    "TC_CashBurn_Retarget_AllProducts_Aug"
+  ],
+  "capped_hungry_campaigns": [
+    "Search_Generic_Hungry_Tees_Exact"
+  ],
+  "notes": "Synthetic fixtures. Platform revenue is intentionally > Shopify. Raw files are unnormalized (Meta dollars + nested actions; Google micros)."
+}

@@ -1,0 +1,11 @@
+platform,platform_campaign_id,campaign_name,unified_campaign_id,unified_sku,funnel_stage_hint,product_hint,map_status
+meta,23851098234,TC_US_Prospecting_Tees_Broad_2026,uc_meta_prospecting_tees,TC-TEE-CREW,prospecting,tees,mapped
+meta,23851098299,FB_Retargeting_Tees_Q3_V2,uc_meta_retargeting_tees,TC-TEE-CREW,retargeting,tees,mapped
+meta,23851999001,August push - classic fit drop v2,uc_meta_messy_tees,TC-TEE-CREW,prospecting,tees,mapped
+meta,23851888012,Meta - TOF - Underwear - Broad,,,prospecting,underwear,UNMAPPED
+meta,23851777077,TC_CashBurn_Retarget_AllProducts_Aug,uc_meta_cashburn_mixed,TC-MIXED,retargeting,mixed,mapped
+google,987654321,Search_Brand_TrueClassic_Tees_Exact,uc_google_brand_tees,TC-TEE-CREW,brand,tees,mapped
+google,987654322,Search_Generic_Mens_Tees_Broad,uc_google_generic_tees,TC-TEE-CREW,non_brand,tees,mapped
+google,987654400,G_Search_Brand_Shirts_Promo_2026,uc_google_brand_shirts,TC-SHIRT-OXFORD,brand,shirts,mapped
+google,987659999,Search_Generic_Hungry_Tees_Exact,,,non_brand,tees,UNMAPPED
+shopify,,,,TC-UNKNOWN-CLEARANCE,,unknown,UNMAPPED
